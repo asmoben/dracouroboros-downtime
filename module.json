@@ -1,0 +1,47 @@
+{
+  "id": "dracouroboros-downtime",
+  "title": "Dracouroboros Downtime Engine",
+  "description": "A comprehensive downtime management system for D&D 5e. Includes crafting, training, resource tracking, faction relations, boons, monster harvesting, magic shops, and a GM request dashboard. All accessible from a single hub, with the ability to push panels directly to player screens.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Your Name Here",
+      "discord": "yourDiscordHandle"
+    }
+  ],
+  "esmodules": [
+    "scripts/main.mjs"
+  ],
+  "styles": [
+    "styles/dracouroboros.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "3.0.0"
+        }
+      }
+    ]
+  },
+  "manifest": "https://github.com/YOURUSERNAME/dracouroboros-downtime/releases/latest/download/module.json",
+  "download": "https://github.com/YOURUSERNAME/dracouroboros-downtime/releases/latest/download/module.zip",
+  "readme": "https://github.com/YOURUSERNAME/dracouroboros-downtime/blob/main/README.md",
+  "bugs": "https://github.com/YOURUSERNAME/dracouroboros-downtime/issues",
+  "license": "MIT",
+  "socket": true
+}

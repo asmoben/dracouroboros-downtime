@@ -1,0 +1,15 @@
+{
+  "DRACOUROBOROS": {
+    "Title": "Dracouroboros Downtime Engine",
+    "Hub": {
+      "Open": "Open Downtime Hub",
+      "OpenHint": "Opens the Dracouroboros Downtime Master hub for the selected character."
+    },
+    "Errors": {
+      "NoActor": "No character found. Select a character token first.",
+      "NoOwner": "No player owns this character. Assign ownership first.",
+      "NotConnected": "That player is not currently connected.",
+      "MacroNotFound": "Downtime Master macro not found."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+/* ============================================================
+   DRACOUROBOROS DOWNTIME ENGINE — Module Styles
+   Scoped to .dracouroboros to avoid conflicts
+   ============================================================ */
+
+/* All dialog content inherits these base styles */
+.app .window-content {
+  padding: 0;
+}
+
+/* Ensure Foundry dialog scrollbars match our dark theme */
+.dracouroboros-dialog .window-content::-webkit-scrollbar {
+  width: 6px;
+}
+.dracouroboros-dialog .window-content::-webkit-scrollbar-track {
+  background: #0d0d0d;
+}
+.dracouroboros-dialog .window-content::-webkit-scrollbar-thumb {
+  background: #8b0000;
+  border-radius: 3px;
+}
+
+/* Scene controls dragon button */
+.control-tool[data-tool="dracouroboros"] .fa-dragon {
+  color: #c9a66b;
+}
